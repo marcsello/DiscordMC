@@ -24,7 +24,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class DiscordCommand implements CommandExecutor {
-    private final String USAGE = "Usage: /discord <logout|login|lookup|send|debug|toggle>";
+    private final String USAGE = "Usage: /discordmc <logout|login|lookup|send|debug|toggle>";
     private final String LACKING_PERMISSION = "You are lacking the required permission to execute this command";
 
     public boolean onCommand(CommandSender cs, Command cmd, String label, String[] args) {

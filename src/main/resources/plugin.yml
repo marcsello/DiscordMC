@@ -1,12 +1,12 @@
 name: ${project.name}
 author: manuelgu
-version: ${project.version}
+version: ${project.version}-fork
 main: ${project.groupId}.discordmc.${project.name}
 description: ${project.description}
 website: "https://www.spigotmc.org/resources/17067/"
 
 commands:
-  discord:
+  discordmc:
     description: Command for DiscordMC
     usage: /<command> <args>
 
@@ -21,7 +21,7 @@ permissions:
       discordmc.command.login: true
       discordmc.comamand.lookup: true
   discordmc.chat:
-    default: op
+    default: true
   discordmc.admin:
         default: op
   discordmc.command.send:
