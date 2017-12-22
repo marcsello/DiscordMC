@@ -24,7 +24,7 @@
     </properties>
 
     <repositories>
-        <repository>
+		<repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
@@ -84,7 +84,7 @@
                 <configuration>
                     <tasks>
                         <copy file="target/DiscordMC-${project.version}.jar"
-                              tofile="D:/Minecraft Server/DiscordMC/plugins/DiscordMC-${project.version}.jar"/>
+                              tofile="plugins/DiscordMC-${project.version}.jar"/>
                     </tasks>
                 </configuration>
                 <executions>
